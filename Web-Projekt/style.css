@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0; 
+    
+}
+html {
+    height:100%;
+}
+body {
+    background-image: url(triangles-3320452.png);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.menue nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 6vh;
+
+}
+.menue a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+
+}
+
+.menue a:hover {
+    color: grey;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100%; 
+    padding-top:0.75em;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+.logoname {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    position:absolute;
+    bottom: 0;  
+    left:0;
+    right:0;
+   
+}
+
+.footer-top {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    color: rgb(1, 2, 17);   
+    
+}
+
+
+.footer nav{
+    
+    text-align: center;
+    
+    
+}
+.footer a {
+    font-family:'Merienda', cursive;
+    color: rgb(1, 2, 17);   
+    text-decoration: none;
+    font-size: 10px;
+    
+}
+.footer a:hover{
+    color:white;
+    
+}
+.footer-middle {
+    padding-top: 5px;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    color: rgb(1, 2, 17);   
+    padding-top:5px;
+}
+
+.homeinfo {
+    text-align: center;
+    padding-top: 18px;
+    
+}
+
+.homeinfo p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+
+.orte {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    min-height: 100%;
+}
+
+.orte p {
+    margin-bottom: 2em;
+    color: white;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+
+
+.orte .info .titel {
+    padding-left:30%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    color:rgb(236, 236, 236)
+    
+}
+.orte .info .text {
+    padding-top:25px;;
+    padding-left:0px;;
+}
+
+.orte a {
+    text-decoration: none;
+    color:white;
+}
+
+.orte a:hover {
+    color:grey;
+}
+
+.cats {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-gap:1em;
+    min-height: 100%;
+}
+
+
+.cats a {
+    padding-left:40%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+
+.cats .info {
+    padding-top: 3em;
+    text-align:center;
+}
+.cats .info p {
+    padding-top: 1em;
+    text-align:center;
+    font-family: 'Patrick Hand', cursive;
+    color:white;
+    font-size:17px;
+}
+
+.apartments {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap:2em;
+    min-height: 100%;
+    padding-top: 1.5em;
+}
+
+.apartments a {
+    padding-left:28%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+
+.apartmentinfo p {
+    text-align: center;
+    padding-top:1em;
+    font-size: 17px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.apartment a {
+    text-decoration: none;
+}
+
+.apartment a:hover {
+    color:grey;
+}
+
+.cats a {
+    text-decoration: none;
+}
+
+.cats a:hover {
+    color:grey;
+}
+
+.variante1gesamt {
+    display: flex;
+    min-height: 100%;
+}
+
+.variante1gesamt .tabelle {
+    padding-top:4em;
+    color:white;
+    font-size:17px;
+
+}
+
+.variante2gesamt {
+    display: flex;
+    min-height: 100%;
+}
+
+.variante2gesamt .tabelle {
+    padding-top:4em;
+    color:white;
+    font-size:17px;
+
+}
+
+.variante3gesamt {
+    display: flex;
+    min-height: 100%;
+}
+
+.variante3gesamt .tabelle {
+    padding-top:4em;
+    color:white;
+    font-size:17px;
+
+}
+
+.nala{
+    display: flex;
+    min-height: 100%;
+}
+
+.nala .bild{
+    padding-top:1.5em;
+}
+
+.nala ul{
+    padding-top:5em;
+}
+
+.nala ul li {
+    color: white;
+    font-size:23px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.nala .strong{
+    color: black;
+}
+
+.mia{
+    display: flex;
+    min-height: 100%;
+}
+
+.mia .bild{
+    padding-top:1.5em;
+}
+
+.mia ul{
+    padding-top:5em;
+}
+
+.mia ul li {
+    color: white;
+    font-size:23px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.mia .strong{
+    color: black;
+}
+
+.simba{
+    display: flex;
+    min-height: 100%;
+}
+
+.simba .bild{
+    padding-top:1.5em;
+}
+
+.simba ul{
+    padding-top:5em;
+}
+
+.simba ul li {
+    color: white;
+    font-size:23px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.simba .strong{
+    color: black;
+}
+
+.luna{
+    display: flex;
+    min-height: 100%;
+}
+
+.luna .bild{
+    padding-top:1.5em;
+}
+
+.luna ul{
+    padding-top:5em;
+}
+
+.luna ul li {
+    color: white;
+    font-size:23px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.luna .strong{
+    color: black;
+}
+
+.sources {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    min-height: 100%;
+    font-size:14px;
+    padding-top:2em;
+    
+}
+
+.quh1 {
+    text-align:center;
+    padding-top:0.5em;
+    color:white;
+}
+
+.source a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.source a:hover{
+    color: grey;
+
+}
+
+.source li{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.antwort  {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;
+    min-height: 100%; 
+   
+}
+
+.antwort a {
+    text-decoration:none;
+    color:white;
+}
+
+.antwort a:hover {
+    color: grey;
+}
+
+.antwort .strong {
+    color: white;
+
+}
+
+.kontakt{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding-top:1em;
+    min-height: 100%; 
+    padding-left:2em;
+    
+}
+
+.kontakt table{
+    padding-top:3em;
+    font-size:25px;
+    color:white;
+
+}
+
+.kontakt h1 {
+    padding-bottom: 0.5em;
+    color:rgb(214, 214, 214)
+}
+
+.p {
+    color:white;
+}
+
+.versorgung {
+    text-align:center;
+    font-size:17px;
+    min-height: 100%; 
+}
+
+.versorgung h2 {
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    color:rgb(185, 185, 185)
+    
+}
+
+.versorgung p {
+    padding-top: 2em;
+    font-weight:800;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:black;
+}
+
+.versorgung ol {
+    font-family: 'Patrick Hand', cursive;
+    color:white;
+}
+
+.buchungseintrag {
+    text-align:center;
+    padding-top: 10%;
+    font-size: 22px;
+    min-height: 100%; 
+    color: white;
+}
+
+.buchungseintrag p{
+    padding-bottom:1em;
+
+}
+
+.buchung {
+    display: flex;
+    padding-top: 1em;
+    color:white;
+}
+
